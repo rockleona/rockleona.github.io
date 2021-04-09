@@ -236,14 +236,14 @@ const optionsSingle = {
     lat: 23.15,
     lng: 120.3,
     zoom: 11    ,
-    style: mapStyle[0]
+    style: mapStyle[1]
 }
 
 const optionsTrend = {
     lat: 22.994276,
     lng: 120.215530,
     zoom: 16    ,
-    style: mapStyle[0]
+    style: mapStyle[1]
 }
 
 const mappa = new Mappa('Leaflet');
