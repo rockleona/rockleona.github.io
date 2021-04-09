@@ -230,20 +230,21 @@ const printSize= {
 
 const mapStyle =[
     'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png',
-    'https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png'
+    'https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',
+    'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
 ];
 const optionsSingle = {
     lat: 23.15,
     lng: 120.3,
     zoom: 11    ,
-    style: mapStyle[1]
+    style: mapStyle[0]
 }
 
 const optionsTrend = {
     lat: 22.994276,
     lng: 120.215530,
     zoom: 16    ,
-    style: mapStyle[1]
+    style: mapStyle[0]
 }
 
 const mappa = new Mappa('Leaflet');
