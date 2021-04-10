@@ -385,7 +385,9 @@ function wrapper_legends() {
             break;
         case 'trend':
             noStroke();
+            fill(255);
             rect(w - 170, h - 100, 160, 90, 5);
+            fill();
             text(legends["title"], w - 150,  h - 80);
             text(legends["trendScaleStart"], w - 150,  h - 40);
             text(legends["trendScaleEnd"], w - 50,  h - 40);
