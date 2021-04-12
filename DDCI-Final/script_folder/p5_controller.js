@@ -237,14 +237,14 @@ const optionsSingle = {
     lat: 23.15,
     lng: 120.3,
     zoom: 11    ,
-    style: mapStyle[2]
+    style: mapStyle[0]
 }
 
 const optionsTrend = {
     lat: 22.994276,
     lng: 120.215530,
     zoom: 16    ,
-    style: mapStyle[2]
+    style: mapStyle[0]
 }
 
 const mappa = new Mappa('Leaflet');
@@ -395,8 +395,8 @@ function wrapper_legends() {
             strokeWeight(5);
             for (let i = 0; i < 255; i++) {
                 stroke(i,0,0);
-                let xpos = w-150;
-                let ypos = h-60
+                let xpos = w - 150;
+                let ypos = h - 60
                 let scale = 120 / 255;
                 let next = i + 1
                 line(xpos + i*scale, ypos, xpos + next*scale, ypos);
